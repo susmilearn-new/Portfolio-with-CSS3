@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000;
+    margin: 0;
+    position: relative;
+}
+
+.wrapper {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #7300ff;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+h2,
+h3,
+h4,
+h5 {
+    padding: 15px 0px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+/* Header style */
+header {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 1px 0px 5px 0px #d9d9d9;
+    padding: 20px 0px;
+}
+
+header .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+}
+
+a.header-button {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+a.header-button:hover {
+    background-color: #000;
+    color: #ffffff;
+}
+
+header h1 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+
+nav a.active {
+    color: #7300ff;
+    font-weight: 500;
+}
+
+/* Header style */
+/* Footer style */
+footer a,
+footer p {
+    font-size: 14px;
+}
+
+footer a {
+    font-weight: 500;
+}
+
+footer ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+/* Footer style */
+.profile-section img {
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 12px 2px #a7a4a4;
+}
+
+.profile-section .row>div {
+    width: 47%;
+}
+
+.profile-section h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.profile-section h2 span {
+    color: #7300ff;
+}
+
+.blue-bg {
+    background-color: #f6f7f8;
+}
+
+.what-bring h3 {
+    text-align: center;
+
+}
+
+div.underline {
+    margin: 0 auto;
+    width: 100px;
+    height: 3px;
+    background-color: #7300ff;
+    border-radius: 10px;
+}
+
+.bring-box i {
+    color: #7300ff;
+    background-color: #eeebf1;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 22px;
+}
+
+.bring-box {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4px 5px 10px 2px #f0edf4;
+    border: 1px solid #7300ff33;
+    width: 30%;
+}
+
+.what-bring .row {
+    padding-top: 30px;
+}
+
+.home-buttons {
+    padding-top: 20px;
+}
+
+a.btn {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: #000;
+    color: #fff;
+    transition: background-color 0.6s ease;
+}
+
+.btn.white,
+a.btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.btn.white:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.skill-section .wrapper {
+    padding: 0px 150px;
+
+}
+
+.skill-details,
+.contact-details {
+    text-align: center;
+}
+
+.skill-details {
+    padding: 0px 100px 50px 100px;
+}
+
+.skill-details p .contact-details p {
+    font-size: 20px;
+    padding: 0px 50px 50px;
+}
+
+.skill-section .skill-box {
+    width: 47%;
+}
+
+.skill-box {
+    background-color: #fff;
+    padding: 10px 40px 40px 40px;
+    border: 1px solid #bbbbbb;
+    border-radius: 20px;
+}
+
+.skill-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-items p {
+    padding: 5px 10px;
+    border: 1px solid #dce2e5;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #494949;
+    background-color: #f7f5f5;
+    margin: 0;
+}
+
+.project {
+    width: 47%;
+}
+
+.Project-details {
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+.Project-details p {
+    font-size: 20px;
+}
+
+.project a {
+    font-weight: 500;
+    color: #7300ff;
+}
+
+.project h4 {
+    padding-top: 20px;
+}
+
+.project img {
+    border-radius: 20px;
+}
+
+.contact-section .wrapper {
+    width: 600px;
+    max-width: 100%;
+    ;
+}
+
+.contact-details p {
+    padding: 10px 50px;
+}
+
+form div {
+    display: grid;
+    padding: 15px 0px;
+}
+
+form label {
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #afa9a9;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+form input[type="submit" i] {
+    color: #fff;
+    background-color: #000000;
+    font-weight: 500;
+    padding: 15px 20px;
+    border: none;
+    font-size: 18px;
+    transition: background-color 0.6s ease;
+}
+
+form input[type="submit" i]:hover {
+    background-color: #7300ff;
+}
+
+form textarea {
+    height: 150px;
+}
